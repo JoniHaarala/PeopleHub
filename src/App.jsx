@@ -1,14 +1,14 @@
-import './App.css'
+import { Path } from './routes/path';
+import Navbar from './components/Navbar';
 
 function App() {
-
   return (
-    <div>  
-      <p className="p-10 font-medium text-xl">
-        Hola Mundo
-      </p>
-    </div>
-  )
+    <main className='w-full'>
+      <Navbar />
+      <p>Hola Perro</p>
+      <Path />
+    </main>
+  );
 }
 
-export default App
+export default App;

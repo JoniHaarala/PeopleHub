@@ -3,3 +3,5 @@ export const FollowCard = () => {
     <div>ToFollowCard</div>
   )
 }
+
+export default FollowCard;

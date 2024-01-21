@@ -3,3 +3,5 @@ export const Trends = () => {
     <div>Trends</div>
   )
 }
+
+export default Trends
