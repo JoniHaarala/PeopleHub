@@ -1,6 +1,8 @@
 export { default as FollowCard } from './FollowCard';
 export { default as Navbar } from './Navbar';
 export { default as Post } from './Post';
+export { default as PostList } from './PostList';
+export { default as PostSkeleton } from './PostSkeleton';
 export { default as ProfileMenu } from './ProfileMenu';
 export { default as SearchBar } from './SearchBar';
 export { default as Setting } from './Setting';

@@ -1,9 +1,7 @@
-import { PageWrapper } from "../hoc";
-
-export const Profile = () => {
+const Profile = () => {
   return (
     <div>Profile</div>
   )
 }
 
-export default PageWrapper(Profile, "Profile")
+export default Profile;

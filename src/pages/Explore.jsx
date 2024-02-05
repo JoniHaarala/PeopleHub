@@ -1,9 +1,7 @@
-import PageWrapper from "../hoc/PageWrapper"
-
-export const Explore = () => {
+const Explore = () => {
   return (
     <div>Exasadplore</div>
   )
 }
 
-export default PageWrapper(Explore, "Explore");
+export default Explore;

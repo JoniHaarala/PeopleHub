@@ -1,9 +1,7 @@
-import { PageWrapper } from "../hoc";
-
-export const Bookmarks = () => {
+const Bookmarks = () => {
   return (
     <div>Bookmarks</div>
   )
 }
 
-export default PageWrapper(Bookmarks, "Bookmarks");
+export default Bookmarks;

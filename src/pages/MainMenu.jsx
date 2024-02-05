@@ -1,9 +1,12 @@
-import { PageWrapper } from "../hoc";
+import { PostList, Trends } from '../components'
 
-export const MainMenu = () => {
+const MainMenu = () => {
   return (
-    <div>MainMenu</div>
+    <main className="flex gap-6">
+      <PostList />
+      <Trends />
+    </main>
   )
 }
 
-export default PageWrapper(MainMenu, "MainMenu");
+export default MainMenu;
