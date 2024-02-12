@@ -87,9 +87,9 @@ const ProfileMenu = () => {
         </MenuItem>
         <MenuItem onClick={handleClose}>
           <ListItemIcon>
-            <Logout fontSize="small" />
+            <Logout fontSize="small" color='error' />
           </ListItemIcon>
-          Logout
+          <p className='text-red-600'>Logout</p>
         </MenuItem>
       </Menu>
     </div>
