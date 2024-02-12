@@ -5,3 +5,5 @@ export const trends = [
     {hashtag: '#helsinki', replies: 16},
     {hashtag: '#messi', replies: 7}
 ]
+
+export const MAX_TWEET_LENGTH = 240;

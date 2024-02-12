@@ -1,11 +1,19 @@
-import { PostList, Trends } from '../components'
+import { PostList, Trends, Tweets, Follow } from '../components'
 
 const MainMenu = () => {
   return (
-    <main className="flex gap-6">
-      <PostList />
-      <Trends />
-    </main>
+    <div className='sm:px-16 px-6 max-w-7xl mx-auto'>
+      <main className="flex md:gap-6 mt-6">
+        <div>
+          <Tweets />
+          <PostList />
+        </div>
+        <div className='flex flex-col md:gap-6'>
+          <Trends />
+          <Follow />
+        </div>
+      </main>
+    </div>
   )
 }
 

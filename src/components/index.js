@@ -1,4 +1,5 @@
 export { default as FollowCard } from './FollowCard';
+export { default as Follow } from './Follow';
 export { default as Navbar } from './Navbar';
 export { default as Post } from './Post';
 export { default as PostList } from './PostList';
@@ -8,3 +9,4 @@ export { default as SearchBar } from './SearchBar';
 export { default as Setting } from './Setting';
 export { default as Trends } from './Trends';
 export { default as Tweets } from './Tweets';
+export { default as Footer } from './Footer';
