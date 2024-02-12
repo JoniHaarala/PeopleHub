@@ -8,7 +8,9 @@ const MainMenu = () => {
           <Tweets />
           <PostList />
         </div>
-        <div className='flex flex-col md:gap-6'>
+        
+        {/* consultar si queda mejor con h-full o max-h-[2000px] */}
+        <div className='hidden max-h-[2000px] sticky top-4 md:flex flex-col md:gap-6'>
           <Trends />
           <Follow />
         </div>
